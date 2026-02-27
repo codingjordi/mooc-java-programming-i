@@ -1,10 +1,10 @@
-
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        GradeDistribution distribution = new GradeDistribution();
 
         System.out.println("Enter point totals, -1 stops:");
 
@@ -18,21 +18,34 @@ public class Main {
             int points = Integer.valueOf(scanner.nextLine());
 
             if (points == -1) {
+
                 System.out.println("Point average (all): " + 1.0 * gradesSum / grades);
-                System.out.println("Point average (passing): " + 1.0 * gradesSumPassing / gradesPassing);
+
+                if (gradesPassing > 0) {
+                    System.out.println("Point average (passing): " + 1.0 * gradesSumPassing / gradesPassing);
+                } else {
+                    System.out.println("Point average (passing): -");
+                }
+
                 System.out.println("Pass percentage: " + 100.0 * gradesPassing / grades);
+
+                System.out.println("Grade distribution:");
+                distribution.printGradeDistribution();
+
                 break;
             }
 
             if (points >= 0 && points <= 100) {
-                grades++;
 
-                if (points >= 50 && points <= 100) {
+                grades++;
+                gradesSum += points;
+
+                distribution.addGrade(points);
+
+                if (points >= 50) {
                     gradesPassing++;
                     gradesSumPassing += points;
                 }
-                gradesSum += points;
-
             }
         }
     }

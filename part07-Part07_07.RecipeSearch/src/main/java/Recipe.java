@@ -33,12 +33,24 @@ public class Recipe {
         this.name = name;
     }
     
+    public String getName() {
+        return this.name;
+    }
+    
     public void setCookingTime(int cookingTime) {
         this.cookingTime = cookingTime;
     }
     
+     public int getCookingTime() {
+        return this.cookingTime;
+    }
+    
     public void setIngredients(String ingredient) {
         this.ingredients.add(ingredient);
+    }
+    
+    public ArrayList<String> getIngredients() {
+        return this.ingredients;
     }
     
     public void printRecipe() {

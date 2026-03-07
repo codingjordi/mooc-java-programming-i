@@ -1,5 +1,8 @@
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 
+> [!TIP]
+> Use these solutions as a reference only. Try solving the exercises on your own first ^^
+
 # Java Programming MOOC - University of Helsinki
 
 This repository contains my solutions to the exercises from the **Java Programming I course provided by the University of Helsinki. This is a comprehensive course focused on Object-Oriented Programming (OOP) and high-quality software development practices.
@@ -14,7 +17,7 @@ This repository contains my solutions to the exercises from the **Java Programmi
 | **Part 4** | ✅ | Introduction to Objects and Files |
 | **Part 5** | ✅ | Object References and Primitive Types |
 | **Part 6** | ✅ | Objects in Lists and Handling Data |
-| **Part 7** | ✅ | Algorithms and Problem Solving |
+| **Part 7** | ✅ | Architecture, Algorithms and Problem Solving |
 
 *(Legend: ✅ Completed | 🔄 In Progress | ⏳ Pending)*
 
@@ -40,4 +43,4 @@ If you have **TMCBeans** installed:
 5. Click the **TMC "Test" button** to run the automated tests.
 
 ---
-*Disclaimer: These solutions are for educational purposes and personal documentation of my learning journey.*
+

@@ -3,7 +3,7 @@
 > [!TIP]
 > Use these solutions as a reference only. Try solving the exercises on your own first ^^
 
-# Java Programming MOOC - University of Helsinki
+# Java Programming I MOOC - University of Helsinki
 
 This repository contains my solutions to the exercises from the **Java Programming I course provided by the University of Helsinki. This is a comprehensive course focused on Object-Oriented Programming (OOP) and high-quality software development practices.
 

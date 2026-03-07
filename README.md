@@ -8,10 +8,13 @@ This repository contains my solutions to the exercises from the **Java Programmi
 
 | Part | Status | Main Topics |
 | :--- | :---: | :--- |
-| **Part 1** | ✅ | Variables, Conditionals, and Basic Logic. |
-| **Part 2** | ✅ | Loops, Methods, and Error Handling. |
-| **Part 3** | ✅ | Lists, Arrays, and String Processing. |
-| **Part 4** | 🔄 | Introduction to Objects and Files. |
+| **Part 1** | ✅ | Variables, Conditionals, and Basic Logic |
+| **Part 2** | ✅ | Loops, Methods, and Program Structure |
+| **Part 3** | ✅ | Lists, Arrays, and String Processing |
+| **Part 4** | ✅ | Introduction to Objects and Files |
+| **Part 5** | ✅ | Object References and Primitive Types |
+| **Part 6** | ✅ | Objects in Lists and Handling Data |
+| **Part 7** | ✅ | Algorithms and Problem Solving |
 
 *(Legend: ✅ Completed | 🔄 In Progress | ⏳ Pending)*
 
